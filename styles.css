@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.card {
+    background-color: transparent !important;
+    border: none;
+}
+
+.flex-bg {
+    background-color: #ffffff;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    padding: 20px !important;
+}
+
+.flex-bg-left {
+    margin-right: 30px !important;
+}
+
+.flex-bg-right {
+    margin-left: 30px !important;
+}
+
+.max-wid-960 {
+    max-width: 960px !important;
+}
+
+@media (min-width: 768px) {
+    body {
+        /* padding-top: 87px !important; */
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        /* padding-top: 82px !important; */
+    }
+    .img-text-container {
+        flex-direction: column !important;
+        display: flex !important;
+    }
+}
+
+@media (max-width: 1399px) {
+    .container-xxl {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+}
+
+.bg-lightgrey {
+    background-color: lightgrey !important;
+}
+
+a.content-link {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.padd-left-none {
+    padding-left: 0 !important;
+}
+
+.padd-right-none {
+    padding-right: 0 !important;
+}
+
+h5.content-title {
+    color: black;
+    font-weight: normal;
+}
+
+.red {
+    color: red !important;
+}
+
+.green {
+    color: #198754;
+}
+
+.title {
+    font-size: 1.5rem !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+#container-index-footer footer ul {
+    padding: 1.2rem 0.2rem;
+    background-color: #ffffff !important;
+    margin-bottom: 1.2rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#container-infopage-contact i {
+    font-size: 35px;
+}
