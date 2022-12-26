@@ -118,3 +118,36 @@ h5.content-title {
 #container-infopage-contact i {
     font-size: 35px;
 }
+
+/* **** Scroll Up - Start */
+
+.go-top {
+    position:fixed;
+    bottom: 20%;
+    right: 0%;
+    padding:20px;
+    display:none;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+}
+
+.go-top i {
+    font-size: 22px !important;
+}
+
+.go-top-text {
+    position: absolute;
+    text-align: center;
+    font-family: 'Questrial';
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-size: 18px !important;
+    margin: 0px 0 0 -4px;
+}
+
+.go-top:hover {
+    transition: all .4s linear;
+    transform: scale(1.1);
+}
+
+/* **** Scroll Up - End */
