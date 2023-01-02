@@ -1,0 +1,101 @@
+
+.infopage-subject-img {
+    width: 200px;
+    height: 150px;
+}
+
+.infopage-subject-img {
+    margin: 10px 0 10px 20px;
+    position: relative;
+    float: left;
+}
+
+.infopage-subject-img h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: 0;
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    font-weight: normal;
+    font-size: 1.1rem;
+    transform: translate(-50%, -50%);
+}
+
+#cleanliness {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/cleaner.jpg);
+    background-size: cover;
+}
+
+#forestry {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/forestry.jpg);
+    background-size: cover;
+}
+
+#planting {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/planting.jpg);
+    background-size: cover;
+}
+
+#pollution {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/pollution.jpg);
+    background-size: cover;
+}
+
+#recycle {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/recycle.jpg);
+    background-size: cover;
+}
+
+#sustainability {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/windmill.jpg);
+    background-size: cover;
+}
+
+#wildlife {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/subject/bird.jpg);
+    background-size: cover;
+}
+
+#campaign {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/event/campign.jpg);
+    background-size: cover;
+}
+
+#celebration {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/event/celebration.jpg);
+    background-size: cover;
+}
+
+#charity {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/event/charity.jpg);
+    background-size: cover;
+}
+
+#conference {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/event/conference.jpg);
+    background-size: cover;
+}
+
+#education {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/event/education.jpg);
+    background-size: cover;
+}
+
+#work {
+    background: linear-gradient(rgba(255, 255, 255, 0.6),rgba(0, 0, 0, 0.6)),
+    url(./../media/image/info/event/work.jpg);
+    background-size: cover;
+}

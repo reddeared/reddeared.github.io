@@ -124,8 +124,8 @@ h5.content-title {
 .go-top {
     position:fixed;
     bottom: 20%;
-    right: 0%;
-    padding:20px;
+    right: 0;
+    padding: 8px;
     display:none;
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
@@ -142,7 +142,7 @@ h5.content-title {
     line-height: 1.5;
     letter-spacing: 3px;
     font-size: 18px !important;
-    margin: 0px 0 0 -4px;
+    margin: 0 0 0 -4px;
 }
 
 .go-top:hover {
