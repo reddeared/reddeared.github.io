@@ -1,7 +1,7 @@
 
 # ReddEared
 
-![](logo.png)
+![](media/logo.png)
 
 ## Rebuilding Green Environment
 Most essential goal in this world is to achieve sustainable pollution free green environment.
