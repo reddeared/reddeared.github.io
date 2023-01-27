@@ -1,0 +1,39 @@
+
+<div class="center">
+    <form class="d-flex m-4" style="max-width: 290px;">
+        <input class="form-control me-1" type="search" placeholder="Under development!" aria-label="Search"
+               disabled="" style="width: 150px; font-size: 12px !important;" />
+        <button class="btn btn-secondary me-2" type="button" title="Search Article"
+                onclick="alert('Under development!')" >
+            <i class="bi bi-search"></i>
+        </button>
+        <button class="btn btn-secondary" type="button" title="Post New Article"
+                data-bs-toggle="modal" data-bs-target="#postArticleModal" >
+            <i class="bi bi-send-plus-fill"></i>
+        </button>
+    </form>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="postArticleModal" tabindex="-1" aria-labelledby="postArticleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="postArticleModalLabel">Post Article</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <iframe frameborder="0" style="height:500px;width:99%;border:none;"
+                        src='https://forms.zohopublic.in/reddeared/form/Article/formperma/X-qy7TbFZ9Mh48v5tttH68OTNgQrdQpViEXPfGMyUPQ'></iframe>
+
+            </div>
+            <div class="modal-footer">
+                <span class="float-start">Refresh page after submission.</span>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                        onclick="location.reload();">Refresh</button>
+            </div>
+        </div>
+    </div>
+</div>
