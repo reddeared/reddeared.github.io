@@ -4,12 +4,14 @@ function commonContentLoaders() {
     loadFooterContent();
 }
 
-function loadResources() {
+function loadResources(additionalMenuMethodCall) {
     $.ajax({
         url: 'content/content-resources.html',
         type: 'GET',
         success: function (data) {
             $('head').append(data);
+            if (!(additionalMenuMethodCall === undefined))
+                additionalMenuMethodCall();
         },
         error: function (error) {
             alert(`An error occurred while getting resources: ${error}`);

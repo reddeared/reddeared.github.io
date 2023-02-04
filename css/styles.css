@@ -151,3 +151,20 @@ h5.content-title {
 }
 
 /* **** Scroll Up - End */
+
+.container-title-info {
+    color: grey !important;
+}
+
+.container-info-label {
+    font-size: 0.7rem !important;
+}
+
+.container-info-content {
+    font-size: 0.9rem !important;
+}
+
+.container-footer-info {
+    color: grey !important;
+    font-size: 0.9rem !important;;
+}
