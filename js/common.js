@@ -1,5 +1,4 @@
 $(function(){
-
     //Scroll event
     $(window).scroll(function(){
         var scrolled = $(window).scrollTop();
@@ -13,3 +12,7 @@ $(function(){
     });
 
 });
+
+function elem(elementTag) {
+    return document.createElement(elementTag);
+}
