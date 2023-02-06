@@ -125,10 +125,11 @@ h5.content-title {
     position:fixed;
     bottom: 20%;
     right: 0;
-    padding: 8px;
+    padding: 10px;
     display:none;
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
+    z-index: 999;
 }
 
 .go-top i {
