@@ -31,7 +31,7 @@ function getEventInnerContainer(data) {
     var eventImage = $(elem('img')).addClass('float-end imgshadow m-2');
     $(innerContainerDiv).append(eventImage);
     $(eventImage).attr('src', data.image).attr('alt', 'Image not found!');
-    $(eventImage).css('width', data.image_width).css('height', data.image_height);
+    $(eventImage).attr('style', `max-width:${data.image_width}; max-height:${data.image_height};`);
 
     var eventInfo = $(elem('p')).addClass('card-text mb-4 pt-4').html(data.description);
     $(innerContainerDiv).append(eventInfo);

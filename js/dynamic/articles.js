@@ -30,13 +30,13 @@ function getArticleInnerContainer(data) {
     var titleText = $(elem('h5')).addClass('mb-4 content-title').text(data.title);
     $(innerContainerDiv).append(titleText);
 
-    var eventImage = $(elem('img')).addClass('float-end imgshadow m-2');
-    $(innerContainerDiv).append(eventImage);
-    $(eventImage).attr('src', data.image).attr('alt', 'Image not found!');
-    $(eventImage).css('width', data.image_width).css('height', data.image_height);
+    var articleImage = $(elem('img')).addClass('float-end imgshadow m-2');
+    $(innerContainerDiv).append(articleImage);
+    $(articleImage).attr('src', data.image).attr('alt', 'Image not found!');
+    $(articleImage).attr('style', `max-width:${data.image_width}; max-height:${data.image_height};`);
 
-    var eventInfo = $(elem('p')).addClass('card-text mb-4 pt-4').html(data.description);
-    $(innerContainerDiv).append(eventInfo);
+    var articleInfo = $(elem('p')).addClass('card-text mb-4 pt-4').html(data.description);
+    $(innerContainerDiv).append(articleInfo);
 
     var footerInfoContainerDiv = getArticleFooterInfoContainer(data);
     $(innerContainerDiv).append(footerInfoContainerDiv);
