@@ -7,6 +7,13 @@ function processData() {
         var data = dataArr[i];
         setEventContainer(data, i)
     }
+
+    setTimeout(function() {
+        var urlHash = window.location.hash;
+        if(urlHash.trim().length > 3)
+            window.location.href = urlHash;
+    },100)
+
 }
 function setEventContainer(data, index) {
     var mainContainerDiv = $(elem('div')).addClass('col-md-12 border shadow-sm rounded flex-bg')

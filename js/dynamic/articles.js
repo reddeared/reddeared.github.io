@@ -7,6 +7,12 @@ function processData() {
         var data = dataArr[i];
         setArticleContainer(data, i)
     }
+
+    setTimeout(function() {
+        var urlHash = window.location.hash;
+        if(urlHash.trim().length > 3)
+            window.location.href = urlHash;
+    },100)
 }
 
 function setArticleContainer(data, index) {
