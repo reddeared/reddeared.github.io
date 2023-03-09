@@ -3,6 +3,7 @@
  */
 
 function processData() {
+    var dataArr = dataArrArticle;
     for (var i = 0; i < dataArr.length; i++) {
         var data = dataArr[i];
         setArticleContainer(data, i)

@@ -1,4 +1,4 @@
-var dataArr_2023 = {
+var dataArrArticle_2023 = {
     "Longtermism: the moral significance of future generations":
     {
         "title": "Longtermism: the moral significance of future generations",

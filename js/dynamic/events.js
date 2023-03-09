@@ -3,6 +3,7 @@
  */
 
 function processData() {
+    var dataArr = dataArrEvent;
     for (var i = 0; i < dataArr.length; i++) {
         var data = dataArr[i];
         setEventContainer(data, i)
