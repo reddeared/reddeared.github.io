@@ -17,8 +17,6 @@
 .bg-menu-bar {
     font-family: 'Open Sans', sans-serif;
     background-color: #ffffff !important;
-    padding: 0 !important;
-    border-bottom: 1px solid #ccc;
 }
 
 .navbar-brand {

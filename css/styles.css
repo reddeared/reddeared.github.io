@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('./font/googleapifont.css');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,19 +8,24 @@
 }
 
 body {
-    background-color: #eeeeee;
+    /* background-color: #eeeeee; */
+}
+
+.content-container {
+    padding: 30px 10px !important;
+}
+
+.container-0 {
+    background-color: #ecf9fb !important;
+}
+
+.container-1 {
+    background-color: #fbfeff !important;
 }
 
 .card {
     background-color: transparent !important;
     border: none;
-}
-
-.flex-bg {
-    background-color: #ffffff;
-    margin-top: 10px !important;
-    margin-bottom: 20px !important;
-    padding: 20px !important;
 }
 
 .flex-bg-left {
@@ -32,6 +38,10 @@ body {
 
 .max-wid-960 {
     max-width: 960px !important;
+}
+
+.max-wid-1000 {
+    max-width: 1000px !important;
 }
 
 @media (min-width: 768px) {
@@ -80,8 +90,16 @@ a.content-link {
 }
 
 h5.content-title {
-    color: black;
-    font-weight: normal;
+    font-size: 2.5rem !important;
+    padding: 20px 0px;
+}
+
+.container-0 h5.content-title {
+    color: black; /* #277c89; */
+}
+
+.container-1 h5.content-title {
+    color: black; /* #3C9DAB; */
 }
 
 .red {
@@ -93,7 +111,11 @@ h5.content-title {
 }
 
 .title {
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
+}
+
+.title2 {
+    font-size: 1.75rem !important;
 }
 
 .bold {
@@ -103,12 +125,6 @@ h5.content-title {
 .center {
     display: flex;
     justify-content: center;
-}
-
-#container-index-footer footer ul {
-    padding: 1.2rem 0.2rem;
-    background-color: #ffffff !important;
-    margin-bottom: 1.2rem;
 }
 
 .pointer {
@@ -154,18 +170,41 @@ h5.content-title {
 /* **** Scroll Up - End */
 
 .container-title-info {
-    color: grey !important;
+    color: #18555e !important;
 }
 
 .container-info-label {
     font-size: 0.7rem !important;
 }
 
+.container-info-label > i.bi {
+    font-size: 1rem !important;
+}
+
 .container-info-content {
     font-size: 0.9rem !important;
 }
 
-.container-footer-info {
-    color: grey !important;
-    font-size: 0.9rem !important;;
+#container-index-footer {
+    background-color: #3C9DAB;
+}
+
+#container-index-footer footer {
+    padding: 2rem;
+}
+
+#container-index-footer footer ul {
+    padding-bottom: 2rem;
+}
+
+#container-index-footer , #container-index-footer footer ul li a {
+    color: white !important;
+}
+
+#container-index-footer footer ul li a {
+    text-decoration: underline;
+}
+
+.img-text-container img {
+    border-radius: 5px;
 }
