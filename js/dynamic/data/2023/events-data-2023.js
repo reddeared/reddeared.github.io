@@ -1,4 +1,4 @@
-var dataArr_2023 = {
+var dataArrEvent_2023 = {
   "National Conference on Advances in Science, Agriculture, Environmental , Biotechnology" : {
     "title": "National Conference on Advances in Science, Agriculture, Environmental , Biotechnology",
     "topic": "Forestry",

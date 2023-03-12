@@ -1,4 +1,4 @@
-var dataArr_2023 = {
+var dataArrArticle_2023 = {
     "Longtermism: the moral significance of future generations":
     {
         "title": "Longtermism: the moral significance of future generations",
@@ -18,18 +18,6 @@ var dataArr_2023 = {
             an impartial way — i.e. without regard to people’s race, class, or where or when they’re born —
             then what most matters morally is that the future goes as well as it can for all generations to come.
             We’ve called this the ‘long-term value thesis.’
-            <br/>
-            When this thesis is also combined with the idea that some of our actions can have non-negligible effects
-            on how the future goes, it implies that one of our biggest priorities should be ensuring the future goes well.
-            This further idea is usually called ‘longtermism.’
-            Most of this article is about the long-term value thesis, but it comes back to whether we can affect
-            the future at the end.
-            <br/>
-            The long-term value thesis is often confused with the claim that we shouldn’t do anything to help people
-            in the present generation. But the thesis is about what most matters — what we should do about it is a further question.
-            If it turned out that the best way to help those in the future is to improve the lives of people in the present,
-            such as through providing health and education, then longtermists would focus on that.
-            The difference is that the biggest reason to help those in the present would be to improve the long term.
         `
     },
     "What is a Sustainable Community?":
@@ -51,11 +39,6 @@ var dataArr_2023 = {
             not just one at the exclusion of all others. It is a place where people of diverse backgrounds
             and perspectives feel welcome and safe, where every group has a seat at the decision-making table,
             and where prosperity is shared.
-            <br/>
-            It takes a long-term perspective – focusing on anticipating and adapting to change in both the present and future.
-            <br/>
-            A sustainable community manages its human, natural, and financial capital to meet current needs
-            while ensuring that adequate resources are available for future generations.
         `
     },
     "New global review of regulatory approaches to implement regional action released":
@@ -78,17 +61,6 @@ var dataArr_2023 = {
             the clean-up job are failing to address the major pollution sources in the larger orbit.
             They are fighting a losing battle, even as pollution from the larger airshed continues to invade
             and undermine local efforts.
-            <br/>
-            The airshed concept is when states need to recognise that they share a common air space and
-            that they need to minimise the effect of air pollution spreading from one space into another.
-            <br/>
-            Anumita Roychowdhury, executive director for research and advocacy at the CSE, said,
-            “The science of the regional influence of pollution has begun to take shape in India.
-            The National Clean Air Programme (NCAP) has taken on board the principle of regional air quality”.
-            “But there is no regulatory framework to enable multi-jurisdiction management for aligned action and to
-            establish the upwind and downwind responsibilities of state governments to improve regional air quality.
-            The deadly winter smog that wraps the entire Indo-Gangetic plain every year is a lasting reminder
-            of this regulatory gap”, she added.
         `
     },
     "Three pioneering cities, one sustainable future":
@@ -110,17 +82,6 @@ var dataArr_2023 = {
             Essen becomes a glistening oasis with hi-tech hidden everywhere. "We’re moving away from drainage systems made of concrete
             and replacing them with infrastructures that mimic natural processes." How can Essen bridge the gap between now and the future?
             What else is going on in 2030s Essen?
-            <br/>
-            In Nottingham, almost every human act is harnessed to generate energy.
-            How can Nottingham bridge the gap between now and the future? What else is going on in 2030s Nottingham?
-            "In 2021, Nottingham set the most ambitious carbon neutrality commitment of any UK city.
-            With a 2028 deadline, it far outstrips the UK’s national target of net zero by 2050."
-            What else is going on in 2030s Nottingham?
-            <br/>
-            Adelaide tackles deadly heat with sci-fi roads and roofs.
-            "While many European cities are now struggling with deadly heatwaves, Adelaide has found salvation in surprising places:
-            the city’s roads, roofs, and walls." How can Adelaide bridge the gap between now and the future?
-            What else is going on in 2030s Adelaide?
         `
     }
 };

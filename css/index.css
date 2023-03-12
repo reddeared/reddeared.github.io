@@ -1,83 +1,4 @@
-p{
-    margin: 0;
-}
 
-img.overlay-img{
-    width: 100%;
-    height: 300px;
-}
-
-.image{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.image .overlay {
-    position: absolute;
-    bottom: 0;
-    padding-left: 25px;
-    padding-top: 05px;
-    font-size: 20px;
-    z-index: 5;
-    height: 100px;
-    width: 110%;
-    padding-right: 10%;
-}
-
-.image .overlay::before{
-    content: "";
-    background: #000000;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left:0;
-    bottom: 0;
-    z-index: -2;
-    opacity: 0.5;
-}
-
-.image:hover .overlay::before{
-    background: #fcfcfc;
-    opacity: 0.9;
-    transition: all 0.3s ease-out;
-}
-
-.container-index .image .overlay .h5{
-    height: 50px !important;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-.container-index .image .overlay p span,
-.container-index .image .overlay div span{
-    color: white !important;
-    padding-left: 2px;
-    padding-right: 2px;
-}
-
-.container-index .image:hover .overlay p span,
-.container-index .image:hover .overlay div span
-{
-    color: #000000 !important;
-    background-color: transparent !important;
-}
-.image:hover .overlay::before{
-    bottom: 0;
-}
-
-.model-type a{
-    font-size: 12px !important;
-    padding: .05rem .2rem .1rem !important;
-}
-
-.container-index-mainimage {
-    padding-bottom: 1.5rem;
-}
-
-.container-index-middlecontent {
-    padding: 2rem 0 !important;
-}
 
 .container-index-middlecontent p span {
     padding: 1rem 3rem 0 !important;
@@ -85,20 +6,13 @@ img.overlay-img{
 
 .container-index-middlecontent span {
     display: block;
-    font-size: 1.1rem;
 }
 
 .container-index-middlecontent-statement {
     max-width: 750px;
-    color: #555;
+    color: #333;
 }
 
-/*
-.container-index-middlecontent-statement b {
-    color: grey !important;
-}
-*/
-
-#container-index-flextabs {
-    margin-bottom: 30px;
+.container-index-middlecontent {
+    padding: 2rem 0 !important;
 }
